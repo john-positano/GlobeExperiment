@@ -17,7 +17,7 @@ app.set(
 );
 
 console.log('process.cwd()', process.cwd());
-console.log('require(\'os\').hostname', require('os').hostname);
+console.log('require(\'os\').hostname()', require('os').hostname());
 
 app.listen(
 	app.get('port'),	
