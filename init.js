@@ -16,8 +16,7 @@ app.set(
 	80
 );
 
-console.log('process.cwd()', process.cwd());
-console.log('require(\'os\').hostname()', require('os').hostname());
+process.chdir('/home/ubuntu');
 
 app.listen(
 	app.get('port'),	
