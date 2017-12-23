@@ -5,7 +5,7 @@ require('dotenv').config();
 app.get(
 	'/',
 	(req, res, next) => {
-		res.send('hi');
+		res.send('Hi!');
 	}
 );
 
