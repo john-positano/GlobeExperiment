@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/john-positano/GlobeExperiment/issues"
   },
-  "homepage": "https://github.com/john-positano/GlobeExperiment#readme"
+  "homepage": "https://github.com/john-positano/GlobeExperiment#readme",
+  "dependencies": {
+    "express": "4.16.2"
+  }
 }
