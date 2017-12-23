@@ -1,1 +1,23 @@
-process.exit();
+var express = require('express');
+var app = express();
+
+app.get(
+	'/',
+	(req, res, next) => {
+		res.send('hi');
+	}
+);
+
+app.set(
+	'port',
+	process.env.PORT
+	||
+	80
+);
+
+app.listen(
+	app.get('port'),	
+	() => {
+		console.log(`Listening on port ${app.get('port')}`);
+	}
+);
