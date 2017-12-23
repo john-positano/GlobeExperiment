@@ -1,0 +1,21 @@
+{
+  "name": "globe-experiment",
+  "version": "1.0.0",
+  "description": "An attempt at a Data-Driven, 3-Dimensional WebGL implementation",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installation": "npm install",
+    "start": "npm init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-positano/GlobeExperiment.git"
+  },
+  "author": "John Positano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-positano/GlobeExperiment/issues"
+  },
+  "homepage": "https://github.com/john-positano/GlobeExperiment#readme"
+}
