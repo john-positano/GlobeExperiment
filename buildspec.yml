@@ -1,20 +1,17 @@
 phases:
   install:
     commands:
-      - echo Installing Mocha...
-      - npm install -g mocha
+      - echo Installing...
+      - npm run installation
   pre_build:
     commands:
-      - echo Installing source NPM dependencies...
-      - npm install unit.js
+      - echo Skipping Pre-Build...
   build:
     commands:
-      - echo Build started on `date`
-      - echo Compiling the Node.js code
-      - mocha HelloWorld.js
+      - echo Skipping Build...
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - HelloWorld.js
+    - init.js
