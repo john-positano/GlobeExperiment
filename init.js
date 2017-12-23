@@ -16,8 +16,6 @@ app.set(
 	80
 );
 
-process.chdir('/home/ubuntu');
-
 app.listen(
 	app.get('port'),	
 	() => {
